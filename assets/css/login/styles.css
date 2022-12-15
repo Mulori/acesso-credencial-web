@@ -1,0 +1,65 @@
+html {
+        height: 100%;
+}
+
+body {
+        height: 100%;
+        background-attachment: fixed;
+}
+
+
+.box-shadow {
+        -webkit-box-shadow: -5px 8px 69px -6px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -5px 8px 69px -6px rgba(0, 0, 0, 0.75);
+        box-shadow: -5px 8px 69px -6px rgba(0, 0, 0, 0.75);
+
+        -webkit-animation: scale-in-hor-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: scale-in-hor-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+#title-form-login {
+        font-family: inherit;
+        font-size: 25px;
+        font-weight: bold;
+}
+
+.img-logo {
+        width: 350px;
+        height: 125px;
+}
+
+@-webkit-keyframes scale-in-hor-left {
+        0% {
+                -webkit-transform: scaleX(0);
+                transform: scaleX(0);
+                -webkit-transform-origin: 0% 0%;
+                transform-origin: 0% 0%;
+                opacity: 1;
+        }
+
+        100% {
+                -webkit-transform: scaleX(1);
+                transform: scaleX(1);
+                -webkit-transform-origin: 0% 0%;
+                transform-origin: 0% 0%;
+                opacity: 1;
+        }
+}
+
+@keyframes scale-in-hor-left {
+        0% {
+                -webkit-transform: scaleX(0);
+                transform: scaleX(0);
+                -webkit-transform-origin: 0% 0%;
+                transform-origin: 0% 0%;
+                opacity: 1;
+        }
+
+        100% {
+                -webkit-transform: scaleX(1);
+                transform: scaleX(1);
+                -webkit-transform-origin: 0% 0%;
+                transform-origin: 0% 0%;
+                opacity: 1;
+        }
+}
